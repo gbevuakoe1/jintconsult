@@ -35,6 +35,142 @@
             <a href="" class="cta-btn">Book Appointment Now</a>
         </div>
     </section>
+
+    <section class="page">
+    <div id="services" class="services-section" aria-labelledby="services-heading">
+      <div class="services-inner">
+        <header class="services-header">
+          <h2 id="services-heading">Our Professional Services</h2>
+          <p class="lead">Fast, compliant, and reliable tax, accounting, company services and certificates — done for you.</p>
+
+          <div class="controls" role="toolbar" aria-label="Filter services">
+            <label for="filter" class="visually-hidden">Filter services</label>
+            <select id="filter" aria-label="Filter services">
+              <option value="all">All Services</option>
+              <option value="tax">Tax & Accounting</option>
+              <option value="consulting">Business Consulting</option>
+              <option value="certificates">Certificates & Docs</option>
+              <option value="audit">Audit</option>
+              <option value="other">Other Services</option>
+            </select>
+          </div>
+        </header>
+
+        <ul class="cards" id="cards" role="list">
+          <!-- Tax & Accounting Services -->
+          <li class="card" data-category="tax" tabindex="0" role="article" aria-labelledby="card-tax-title">
+            <div class="card-icon" aria-hidden="true">
+              <!-- simple inline SVG icon -->
+              <svg viewBox="0 0 24 24" width="36" height="36" focusable="false" aria-hidden="true">
+                <path fill="currentColor" d="M3 3h18v4H3zM3 9h18v12H3z"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 id="card-tax-title">Tax & Accounting</h3>
+              <p class="card-excerpt">GRA Registration, Tax Filing, Tax Clearance Certificate, VAT Certificates, Payroll, Book-keeping and Financial Statements & Annual Retuns.</p>
+              <button class="btn-more" aria-expanded="false" aria-controls="tax-details">Learn more</button>
+              <div id="tax-details" class="card-details" hidden>
+                <ul>
+                  <li>GRA Registration & Ongoing compliance</li>
+                  <li>Corporate & Individual Tax Filing</li>
+                  <li>VAT registration & Certificate Issuance</li>
+                  <li>Payroll Setup & Monthly Processing</li>
+                  <li>Book-keeping & Preparation of Financial statements</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- Business Consulting -->
+          <li class="card" data-category="consulting" tabindex="0" role="article" aria-labelledby="card-consult-title">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="36" height="36" focusable="false" aria-hidden="true">
+                <path fill="currentColor" d="M4 22h16V2z"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 id="card-consult-title">Business Consulting</h3>
+              <p class="card-excerpt">Company Registration, Sole Proprietorship Registrstion, Annual Returns, Amendments & Corporate Renewals.</p>
+              <button class="btn-more" aria-expanded="false" aria-controls="consult-details">Learn more</button>
+              <div id="consult-details" class="card-details" hidden>
+                <ul>
+                  <li>New company/business Registration</li>
+                  <li>Annual Returns and Renewals</li>
+                  <li>Amendments (Directors, Share Structure, Registered Address)</li>
+                  <li>Ongoing corporate secretarial support</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- Public Procurement & Labour & Works -->
+          <li class="card" data-category="certificates" tabindex="0" role="article" aria-labelledby="card-cert-title">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="36" height="36" focusable="false" aria-hidden="true">
+                <path fill="currentColor" d="M12 2l7 7H5zM5 13h14v9H5z"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 id="card-cert-title">Certificates & Permits</h3>
+              <p class="card-excerpt">PPA certificate, Labour Certificate, Works & Housing Compliance Documents & More.</p>
+              <button class="btn-more" aria-expanded="false" aria-controls="cert-details">Learn more</button>
+              <div id="cert-details" class="card-details" hidden>
+                <ul>
+                  <li>Public Procurement Authority (PPA) Certificate</li>
+                  <li>Labour Certificate</li>
+                  <li>Works & Housing Certificate</li>
+                  <li>Assistance with Other Statutory Documents</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- Audit -->
+          <li class="card" data-category="audit" tabindex="0" role="article" aria-labelledby="card-audit-title">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="36" height="36" focusable="false" aria-hidden="true">
+                <path fill="currentColor" d="M3 3h18v4H3zM3 9h18v12H3z"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 id="card-audit-title">Audit</h3>
+              <p class="card-excerpt">Statutory and Internal Audits Delivered with clear, Actionable Reporting.</p>
+              <button class="btn-more" aria-expanded="false" aria-controls="audit-details">Learn more</button>
+              <div id="audit-details" class="card-details" hidden>
+                <ul>
+                  <li>Financial Statement Audits</li>
+                  <li>Internal Controls & Process Reviews</li>
+                  <li>Regulatory Compliance Audits</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- Other Services -->
+          <li class="card" data-category="other" tabindex="0" role="article" aria-labelledby="card-other-title">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="36" height="36" focusable="false" aria-hidden="true">
+                <path fill="currentColor" d="M12 2a10 10 0 100 20 10 10 0 000-20z"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 id="card-other-title">Other Services</h3>
+              <p class="card-excerpt">Fast Processing of Passports, Birth Certificates, Affidavits, Attestations, Gazettes & More.</p>
+              <button class="btn-more" aria-expanded="false" aria-controls="other-details">Learn more</button>
+              <div id="other-details" class="card-details" hidden>
+                <ul>
+                  <li>Biometric Passport Processing</li>
+                  <li>Birth Certificate Retrieval</li>
+                  <li>Affidavits & Document Attestations</li>
+                  <li>Gazette Publication Services</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+</section>
     <script src="./script.js"></script>
 </body>
 </html>
