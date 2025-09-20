@@ -219,8 +219,8 @@ a{color:inherit}
 
 .whatsapp{
     position: fixed;
-    top: 90vh; right: 10px;
+    bottom: 50px; right: 10px;
 }
 .whatsapp img{
-    width: 40px;
+    width: 48px;
 }
