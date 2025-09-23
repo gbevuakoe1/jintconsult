@@ -84,4 +84,14 @@
         transition:none; 
         transform:none
     }
+
+    footer{
+        text-align: left;
+        margin: 20px 20px;
+    }
+
+    .footer-bottom{
+        text-align: center;
+        padding: 20px 20px;
+    }
 }
