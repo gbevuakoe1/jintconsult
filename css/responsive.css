@@ -1,7 +1,13 @@
 /* 1024px for small laptops */
-@media (max-width: 1024p){
+@media (max-width: 1024px){
     .cards{
         grid-template-columns:repeat(2,1fr)
+    }
+    .contact-section .contact-container{
+        flex-direction: column-reverse;
+    }
+    .about-section .about-container{
+        flex-direction: column;
     }
 }
 

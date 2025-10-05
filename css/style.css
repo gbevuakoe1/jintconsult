@@ -95,7 +95,7 @@ nav{
     text-decoration: none;
     border: none;
     border-radius: 8px;
-    margin: 0px 0;
+    margin: 20px 0;
     cursor: pointer;
     display: inline-block;
 }
@@ -239,7 +239,7 @@ a{color:inherit}
 
 
 .whatsapp img{
-    width: 80px;
+    width: 60px;
 }
 .whatsapp{
     position: fixed;
@@ -254,8 +254,8 @@ a{color:inherit}
 footer{
     background-color: black;
     padding: 80px 0 0 50px;
-    border-top-left-radius:30px;
-    border-top-right-radius:30px;
+    /* border-top-left-radius:30px;
+    border-top-right-radius:30px; */
     margin-top: 80px;
     
 }
@@ -309,6 +309,9 @@ footer .footer-container .footer-services li{
 footer .footer-container .footer-services li a{
     font-size: 0.9rem;
     text-decoration: none;
+}
+footer .footer-container .quick-links li a:hover, footer .footer-container .footer-services li a:hover{
+    color: red;
 }
 
 
@@ -393,13 +396,13 @@ footer .footer-bottom{
 
 .contact-section .contact-container{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     /* padding: 120px 80px; */
     margin-bottom: 30px;
 }
 
 .contact-section .contact-container .form-container{
-    flex-grow: 1;
+    flex: 1;
 }
 
 
@@ -419,7 +422,7 @@ footer .footer-bottom{
 }
 
 .contact-section .contact-container .contact-details{
-    flex-grow: 1;
+    flex: 1;
 }
 
 .contact-section .contact-container .contact-details h2{
@@ -436,3 +439,48 @@ footer .footer-bottom{
 .contact-section .contact-container .contact-details .contact-info .gps{
     margin-top: 10px;
 }
+
+
+
+/* ABOUT SECTION */
+.about-section{
+    margin: 60px auto;
+    max-width: 1400px;
+    width: 90%;
+}
+
+.about-section .about-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about-section .about-container .about-left{
+    flex: 1;
+}
+
+.about-section .about-container .about-left img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    height: 400px;
+}
+
+.about-section .about-container .about-right{
+    flex: 1;
+    
+}
+
+.about-section .about-container .about-right h1{
+    margin-bottom: 20px;
+}
+.about-section .about-container .about-right p{
+    font-size: 12px;
+}
+
+
+
