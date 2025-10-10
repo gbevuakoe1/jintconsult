@@ -73,7 +73,10 @@
 
     }
     .hero-section{
-        height: 50vh;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
     }
 
     .hero-section .hero-content{
@@ -99,5 +102,28 @@
     .contact-section .contact-container{
         flex-direction: column-reverse;
     }
+}
+
+
+
+/* 600px for mobile */
+
+@media (min-width: 300px){
+    .hero-section{
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+
+
+.hero-section .hero-content h1{
+        font-size: 20px;
+    }
+
+    
+.hero-section .hero-content p{
+    font-size: 12px;
+}
 }
 
