@@ -52,7 +52,6 @@ nav{
 .hero-section{
     height: 100vh;
     background: linear-gradient(rgba(22,36,86,0.7),rgba(22,36,86,0.7)),url(../Images/background.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -89,22 +88,23 @@ nav{
 
 
 .hero-section .hero-content{
-    max-width: 750px;
+    max-width: 900px;
     margin-top: 5%;
     padding: 0 80px;
 }
 
 .hero-section .hero-content h1{
     color: white;
-    font-size: 52px;
+    font-size: 54px;
     margin: 15px 0;
 }
 
 .hero-section .hero-content p{
     color: white;
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 24px;
     text-align: justify;
+    line-height: 28px;
 }
 
 .hero-section .hero-content .btn-left{
@@ -207,7 +207,7 @@ footer{
 
 .footer-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     gap: 20px;
     padding: 60px 60px;
 }
