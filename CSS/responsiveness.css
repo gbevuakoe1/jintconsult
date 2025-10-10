@@ -72,22 +72,7 @@
         color: white !important;
 
     }
-    .hero-section{
-        height: auto;
-        background-position: center;
-        background-size: cover;
-        width: 100vw;
-    }
-
-    .hero-section .hero-content{
-        margin-top: 15%;
-        padding: 40px 80px;
-        max-width: 800px;
-
-    }
-    .hero-section .hero-content h1{
-        font-size: 28px;
-    }
+   
 
     .btn-left{
         display: none;
@@ -108,22 +93,5 @@
 
 /* 600px for mobile */
 
-@media (min-width: 300px){
-    .hero-section{
-        height: auto;
-        background-position: center;
-        background-size: cover;
-        width: 100vw;
-    }
 
-
-.hero-section .hero-content h1{
-        font-size: 20px;
-    }
-
-    
-.hero-section .hero-content p{
-    font-size: 12px;
-}
-}
 

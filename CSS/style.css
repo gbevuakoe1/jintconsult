@@ -37,6 +37,7 @@ nav{
     justify-content: space-between;
     padding: 30px 60px;
     height: 80px;
+    width: 100%;
 }
 
 .fixed-nav{
