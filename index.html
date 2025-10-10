@@ -1,283 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="icon" type="image/png" href="./img/logo.png">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsiveness.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <section class="hero-section">
         <nav id="navbar">
-            <img src="./img/jint logo.png" alt="" class="logo">
+            <img src="./Images/jint logo.png" alt="logo" class="logo">
             <div class="nav-wrapper">
                 <ul class="nav-links">
-                    <li><a href="">Home</a></li>
+                    <li><a href="" class="active">Home</a></li>
                     <li><a href="">Services</a></li>
-                    <li><a href="./about.html">About Us</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <div class="menu-btn" id="close-btn">
                     <i class="fas fa-times"></i>
                 </div>
             </div>
-            <div class="menu-btn" id="open-btn">
-                <i class="fas fa-bars"></i>
+            <div class="nav-right">
+                <a href="" class="cta-btn btn-header">Appointment</a>
+                <div class="menu-btn" id="open-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </nav>
-
         <div class="hero-content">
             <h1>Expert Tax Solutions You Can Trust</h1>
-            <p>Whether you're an individual or a business, we simplify your taxes and ensure full compliance — without the headache.</p>
-            <a href="" class="cta-btn">Book Appointment Now</a>
+            <p>We turn your bold financial goals into reality through expert tax strategies and
+                meticulous attention to detail. Our seasoned professionals deliver personalized solutions that go beyond
+                expectations, combining innovative thinking with proven tax expertise. From planning to filing and
+                beyond, we’re
+                committed to clarity, compliance, and results that last.
+            </p>
+            <a href="" class="cta-btn btn-left">EXPLORE MORE</a>
+            <a href="" class="cta-btn btn-right">GET IN TOUCH</a>
         </div>
     </section>
 
-    <section class="page">
-    <div id="services" class="services-section" aria-labelledby="services-heading">
-      <div class="services-inner">
-        <header class="services-header">
-          <h2 id="services-heading">Our Professional Services</h2>
-          <p class="lead">Fast, Compliant & Reliable Tax, Accounting, Company Services & Certificates — done for you.</p>
+    <!-- <div class="newsletter-section">
+        <div>
 
-          <div class="controls" role="toolbar" aria-label="Filter services">
-            <label for="filter" class="visually-hidden">Filter services</label>
-            <select id="filter" aria-label="Filter services">
-              <option value="all">All Services</option>
-              <option value="tax">Tax & Accounting</option>
-              <option value="consulting">Business Consulting</option>
-              <option value="certificates">Certificates & Docs</option>
-              <option value="audit">Audit</option>
-              <option value="other">Other Services</option>
-            </select>
-          </div>
-        </header>
-
-        <ul class="cards" id="cards" role="list">
-          <!-- Tax & Accounting Services -->
-          <li class="card" data-category="tax" tabindex="0" role="article" aria-labelledby="card-tax-title">
-            <div class="card-icon" aria-hidden="true">
-              <!-- simple inline SVG icon -->
-              <svg viewBox="0 0 24 24" width="36" height="36" focusable="false" aria-hidden="true">
-                <path fill="currentColor" d="M3 3h18v4H3zM3 9h18v12H3z"/>
-              </svg>
-            </div>
-            <div class="card-body">
-              <h3 id="card-tax-title">Tax & Accounting</h3>
-              <p class="card-excerpt">GRA Registration, Tax Filing, Tax Clearance Certificate, VAT Certificates, Payroll, Book-keeping and Financial Statements & Annual Retuns.</p>
-              <button class="btn-more" aria-expanded="false" aria-controls="tax-details">Learn more</button>
-              <div id="tax-details" class="card-details" hidden>
-                <ul>
-                  <li>GRA Registration & Ongoing compliance</li>
-                  <li>Corporate & Individual Tax Filing</li>
-                  <li>VAT registration & Certificate Issuance</li>
-                  <li>Payroll Setup & Monthly Processing</li>
-                  <li>Book-keeping & Preparation of Financial statements</li>
-                </ul>
-              </div>
-            </div>
-          </li>
-
-          <!-- Business Consulting -->
-          <li class="card" data-category="consulting" tabindex="0" role="article" aria-labelledby="card-consult-title">
-            <div class="card-icon">
-              <svg viewBox="0 0 24 24" width="36" height="36" focusable="false" aria-hidden="true">
-                <path fill="currentColor" d="M4 22h16V2z"/>
-              </svg>
-            </div>
-            <div class="card-body">
-              <h3 id="card-consult-title">Business Consulting</h3>
-              <p class="card-excerpt">Company Registration, Sole Proprietorship Registrstion, Annual Returns, Amendments & Corporate Renewals.</p>
-              <button class="btn-more" aria-expanded="false" aria-controls="consult-details">Learn more</button>
-              <div id="consult-details" class="card-details" hidden>
-                <ul>
-                  <li>New company/business Registration</li>
-                  <li>Annual Returns and Renewals</li>
-                  <li>Amendments (Directors, Share Structure, Registered Address)</li>
-                  <li>Ongoing corporate secretarial support</li>
-                </ul>
-              </div>
-            </div>
-          </li>
-
-          <!-- Public Procurement & Labour & Works -->
-          <li class="card" data-category="certificates" tabindex="0" role="article" aria-labelledby="card-cert-title">
-            <div class="card-icon">
-              <svg viewBox="0 0 24 24" width="36" height="36" focusable="false" aria-hidden="true">
-                <path fill="currentColor" d="M12 2l7 7H5zM5 13h14v9H5z"/>
-              </svg>
-            </div>
-            <div class="card-body">
-              <h3 id="card-cert-title">Certificates & Permits</h3>
-              <p class="card-excerpt">PPA certificate, Labour Certificate, Works & Housing Compliance Documents & More.</p>
-              <button class="btn-more" aria-expanded="false" aria-controls="cert-details">Learn more</button>
-              <div id="cert-details" class="card-details" hidden>
-                <ul>
-                  <li>Public Procurement Authority (PPA) Certificate</li>
-                  <li>Labour Certificate</li>
-                  <li>Works & Housing Certificate</li>
-                  <li>Assistance with Other Statutory Documents</li>
-                </ul>
-              </div>
-            </div>
-          </li>
-
-          <!-- Audit -->
-          <li class="card" data-category="audit" tabindex="0" role="article" aria-labelledby="card-audit-title">
-            <div class="card-icon">
-              <svg viewBox="0 0 24 24" width="36" height="36" focusable="false" aria-hidden="true">
-                <path fill="currentColor" d="M3 3h18v4H3zM3 9h18v12H3z"/>
-              </svg>
-            </div>
-            <div class="card-body">
-              <h3 id="card-audit-title">Audit</h3>
-              <p class="card-excerpt">Statutory and Internal Audits Delivered with clear, Actionable Reporting.</p>
-              <button class="btn-more" aria-expanded="false" aria-controls="audit-details">Learn more</button>
-              <div id="audit-details" class="card-details" hidden>
-                <ul>
-                  <li>Financial Statement Audits</li>
-                  <li>Internal Controls & Process Reviews</li>
-                  <li>Regulatory Compliance Audits</li>
-                </ul>
-              </div>
-            </div>
-          </li>
-
-          <!-- Other Services -->
-          <li class="card" data-category="other" tabindex="0" role="article" aria-labelledby="card-other-title">
-            <div class="card-icon">
-              <svg viewBox="0 0 24 24" width="36" height="36" focusable="false" aria-hidden="true">
-                <path fill="currentColor" d="M12 2a10 10 0 100 20 10 10 0 000-20z"/>
-              </svg>
-            </div>
-            <div class="card-body">
-              <h3 id="card-other-title">Other Services</h3>
-              <p class="card-excerpt">Fast Processing of Passports, Birth Certificates, Affidavits, Attestations, Gazettes & More.</p>
-              <button class="btn-more" aria-expanded="false" aria-controls="other-details">Learn more</button>
-              <div id="other-details" class="card-details" hidden>
-                <ul>
-                  <li>Biometric Passport Processing</li>
-                  <li>Birth Certificate Retrieval</li>
-                  <li>Affidavits & Document Attestations</li>
-                  <li>Gazette Publication Services</li>
-                </ul>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-</section>
-
-      
-  <!-- <section class="what-we-offer">
-    <div>
-        <h2>We offer innovative solutions, and unparalleled support.</h2>
-        <p>At JINT CONSULT, We are dedicated to being a trusted partner and advisor to businesses, helping them navigate complexity, seize opportunities, and achieve sustainable growth in an ever-evolving business landscape.</p>
-        <a href="" class="cta-btn">Get an Appointment</a>
-    </div>
-  </section> -->
-<section class="whatsapp">
-        <a href="https://wa.me/+233598963225"><img src="./img/whatsapp.png" alt=""></a>
-</section>
-
-<section class="testimonial-section">
-    <div class="header">
-      <h1>Testimonials</h1>
-      <p>What people aresaying about our us</p>
-    </div>
-    <div class="testimonial-container">
-      <div class="testimonial-card">
-        <img src="./img/test1.jpg" alt="">
-        <p>Ariana Lopez</p>
-        <p>Tema, Ghana</p>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
         </div>
-        <p>Jint consult is the best. Thier timely delivery of work is top notch. I will recommend theM to anyone at any given time. </p>
-      </div>
-        <div class="testimonial-card">
-        <img src="./img/about pic.jpeg" alt="">
-        <p>Millicent Jean</p>
-        <p>Madina-Accra, Ghana</p>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
+        <div class="form">
+            <input type="Email" placeholder="Email">
+            <button>Send</button>
         </div>
-        <p>Jint consulT is the best. TheRE are relaible and I will recommend them for any start-up business for their growth</p>
-      </div>
-        <div class="testimonial-card">
-        <img src="./img/test 2.jpg" alt="">
-        <p>Wonder Aseye</p>
-        <p>Takoradi, Ghana</p>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
+    </div> -->
+
+
+    <section class="testimonials-section">
+        <div class="testimonials-header">
+            <h1>Testimonials</h1>
+            <p>What people are saying about us</p>
         </div>
-        <p>Jint Consult has been a game-changer for our business. Their expertise, attention to detail, and personalized support have made managing our finances seamless and stress-free</p>
-      </div>
-    </div>
-</section>
-<footer>
-    <div class="footer-container">
-        <div class="address">
-            <h3>Contact</h3>
+        <div class="testimonials-container">
+            <div class="testimonials-card">
+                <img src="./Images/test1.jpg" alt="">
+                <p>Adriana Lopez</p>
+                <p>Tema, Ghana</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Jint consult is the best. Thier timely delivery of work is top notch. I will recommend them to anyone at any given time.</p>
+            </div>
+            <div class="testimonials-card">
+                <img src="./Images/test 2.jpg" alt="">
+                <p>Adriana Lopez</p>
+                <p>Tema, Ghana</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Jint consulT is the best. TherE are relaible and I will recommend them for any start-up business for their growth</p>
+            </div>
+            <div class="testimonials-card">
+                <img src="./Images/about pic.jpeg" alt="">
+                <p>Adriana Lopez</p>
+                <p>Tema, Ghana</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Jint Consult has been a game-changer for our business. Their expertise, attention to details, and
+                    personalized
+                    support have made managing our finances seamless and stress-free
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="whatsapp">
+        <a href=""><img src="./Images/whatsapp.png" alt=""></a>
+    </section>
+
+    <footer>
+        <div class="footer-container">
             <div class="address">
-                <p><strong>Address:</strong> 14 Abuja Street, Ritz Junction, Accra</p>
-                <p><strong>Phone:</strong> 0598963225</p>
-                <p><strong>Email:</strong> jintconsult@gmail.com</p>
-                <p><strong>Working Hours:</strong> 8:00am-5:00pm, Mondday-Friday</p>
+                <h3>Contact</h3>
+                <div class="contact-details">
+                    <p><strong>Address:</strong>14 Abuja Street Ritz Junction, Madina Accra</p>
+                    <p><strong>Phone:</strong>0598963225</p>
+                    <p><strong>Email:</strong>jintconsult@gmail.com</p>
+                    <p><strong>Working Hours:</strong>Mon-Fri: 8:00AM - 5:00PM</p>
+                </div>
+            </div>
+            <div class="links">
+                <h3>Quick Links</h3>
+                <div class="link-details">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="services-links">
+                <h3>Our Services</h3>
+                <div class="services-details">
+                    <ul>
+                        <li><a href="">Tax & Accounting</a></li>
+                        <li><a href="">Business Consulting</a></li>
+                        <li><a href="">Certificates & Docs</a></li>
+                        <li><a href="">Audit</a></li>
+                        <li><a href="">Other Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="socials">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-x-twitter"></i></a>
+                    <a href=""><i class="fab fa-snapchat"></i></a>
+                </div>
+                <div class="privacy">
+                    <a href="">Privacy Policy</a>
+                </div>
             </div>
         </div>
-        <div class="quick-links">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About</a></li>
-            </ul>
+        <div class="footer-bottom">
+            <p>JINT CONSULT – All Right Reserved 2025 – Website Developed By Manuel Tech Inst.</p>
         </div>
-        <div class="footer-services">
-            <h3>Our Services</h3>
-            <ul>
-                <li><a href="">Tax & Accounting</a></li>
-                <li><a href="">Business Consulting</a></li>
-                <li><a href="">Certificates & Docs</a></li>
-                <li><a href="">Audit</a></li>
-                <li><a href="">Other Services</a></li>
-            </ul>
-        </div>
-        <div class="social">
-            <h3>Follow Us</h3>
-            <div class="social-icons">
-                <a href="https://www.facebook.com/share/1JbYZHcrQW/"><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/jintconsult?utm_source=qr&igsh=MTdjYmUyOTN0NDd2eQ=="><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-snapchat"></i></a>
-            </div>  
-            <div class="privacy">
-                <a href="">Privacy Policy</a>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>JINT CONSULT – All Right Reserved 2025 – Website Developed By Manuel Tech Inst.</p>
-    </div>
-</footer>
-<script src="./script.js"></script>
+    </footer>
+
+    <script src="./CSS/script.js"></script>
 </body>
+
 </html>
