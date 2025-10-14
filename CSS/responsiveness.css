@@ -83,10 +83,16 @@
        
     }
 
+   
+
     .hero-section .hero-content p{
         font-size: 18px;
         padding: 0 30px;
         
+    }
+
+    .whatsapp{
+        width: 40px;
     }
 }
 
