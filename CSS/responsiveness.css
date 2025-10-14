@@ -71,7 +71,7 @@
     .hero-section .hero-content{
         max-width: 400px;
         width: 90%;
-        margin: auto 40px;
+        margin: 0 40px;
         height: 80%;
         
         }
@@ -83,6 +83,30 @@
     }
 
     .hero-section .hero-content p{
-        font-size: 20px;
+        font-size: 18px;
+        
+    }
+}
+
+/* for mobile phones */
+@media (max-width:500px){
+
+    .hero-section .hero-content{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .hero-section .hero-content h1{
+        font-size: 30px;
+        padding-top: 100px;
+        margin-top: 100px;
+    }
+
+    .hero-section .hero-content p{
+        font-size: 16px;
+        
     }
 }
