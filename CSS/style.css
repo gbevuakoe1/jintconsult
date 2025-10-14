@@ -60,9 +60,10 @@ nav{
 
 .hero-section{
     height: 100vh;
-    background: linear-gradient(rgba(22,36,86,0.7), rgba(22,36,86,0.7)),url(../Images/background.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),url(../Images/background.jpg);
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 .nav-links{
@@ -82,15 +83,18 @@ nav{
     color: red;
 }
 
-.hero-section .hero-content{
-    max-width: 750px;
-    width: 90%;
-    margin: auto 100px;
+
+.hero-section .hero-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     height: 100%;
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+
 }
 
 .hero-section .hero-content h1{
@@ -103,11 +107,149 @@ nav{
 .hero-section .hero-content p{
     font-size: 20px;
     color: whitesmoke;
-    text-align: justify;
     line-height: 1.5;
 }
 
 
+.service-section{
+    margin: 50px 0;
+}
+
+.service-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.service-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.service-card{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.service-card .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.service-card:hover img{
+    transform: scale(1.5);
+}
+
+.service-card i{
+    color: sandybrown;
+    font-size: 36px;
+}
+
+.service-card h2{
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.service-card p{
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+
+.service-card a{
+    color: red;
+}
+
+
+.whatsapp img{
+    width: 60px;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+}
+
+.testimonials-section{
+    margin: 50px 0;
+}
+
+.testimonials-section .testimonials-header{
+    text-align: center;
+    counter-reset: black;
+    margin-bottom: 20px;
+}
+
+.testimonials-section .header h1{
+    margin-bottom: 5px;
+}
+
+.testimonials-section .header p{
+    color: #0f0f10;
+}
+
+.testimonials-section .testimonials-container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+}
+.testimonials-section .testimonials-container .testimonials-card{
+    background-color: #f7f7f7;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.testimonials-section .testimonials-container .testimonials-card img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.testimonials-section .testimonials-container .testimonials-card p{
+    color: #0f0f10;
+    font-size: 0.9rem;
+}
+
+.testimonials-section .testimonials-container .testimonials-card p:first-of-type{
+    color: #0b0b0b;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.testimonials-section .testimonials-container .testimonials-card .stars{
+    color: gold;
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
 
 
 

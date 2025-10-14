@@ -64,7 +64,7 @@
     }
 
     .hero-section{
-        height: 100vh;
+        height: 80vh;
     }
 
     
@@ -78,36 +78,15 @@
         }
 
     .hero-section .hero-content h1{
-        font-size: 32px;
-        padding-top: 100px;
-        margin-top: 100px;
+        font-size: 28px;
+        padding: 0 30px;
+       
     }
 
     .hero-section .hero-content p{
         font-size: 18px;
+        padding: 0 30px;
         
     }
 }
 
-/* for mobile phones */
-@media (max-width:500px){
-
-    .hero-section .hero-content{
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-    }
-
-    .hero-section .hero-content h1{
-        font-size: 30px;
-        padding-top: 100px;
-        margin-top: 100px;
-    }
-
-    .hero-section .hero-content p{
-        font-size: 16px;
-        
-    }
-}
