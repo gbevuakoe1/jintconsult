@@ -94,5 +94,13 @@
     .whatsapp{
         width: 40px;
     }
+    
+    .contact-section .contact-container{
+        flex-direction: column-reverse;
+    }
+
+    .about-section .about-container{
+        flex-direction: column;
+    }
 }
 
