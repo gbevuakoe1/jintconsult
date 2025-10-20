@@ -118,8 +118,11 @@ nav{
 }
 
 .about-container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
     display: flex;
-    gap: 50px;
+    gap: 80px;
     position: relative;
     padding: 250px 30px;
     overflow: hidden;
@@ -160,13 +163,13 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: start;
-    max-width: 800px;
+    max-width: 1000px;
     width: 90%;
     margin: 0 auto;
     position: absolute;
     top: 90vh;
-    left: 20%;
-    right: 55%;
+    left: 25px;
+    right: 25px;
 }
 .about-main .about-mission .believe{
     padding: 50px 30px;
