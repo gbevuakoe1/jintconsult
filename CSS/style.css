@@ -110,8 +110,147 @@ nav{
     line-height: 1.5;
 }
 
+.about-main{
+    margin:0;
+    width: 100%;
+    height: 120vh;
+    background-color: #f7f7f7;
+}
+
+.about-container{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    padding: 250px 30px;
+    overflow: hidden;
+    
+}
+
+.about-container .about-left{
+    flex: 1;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about-container .about-left p{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.about-container .about-left p:last-of-type{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.about-container .about-right{
+    flex: 1;
+}
+
+
+.about-container .about-right img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.about-main .about-mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 90vh;
+    left: 20%;
+    right: 55%;
+}
+.about-main .about-mission .believe{
+    padding: 50px 30px;
+    height: 250px;
+    color: white;
+    background-color: black;
+}
+.about-main .about-mission .believe h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+.about-main .about-mission .believe p{
+    margin-bottom: 20px;
+}
+.about-main .about-mission .vision{
+    padding: 50px 30px;
+    height: 250px;
+    color: black;
+    background-color: white;
+}
+.about-main .about-mission .vision h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+.about-main .about-mission .vision p{
+    margin-bottom: 20px;
+}
+.about-main .about-mission .mission{
+    padding: 50px 30px;
+    height: 250px;
+    color: black;
+    background-color: white;
+}
+.about-main .about-mission .mission h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+.about-main .about-mission .mission p{
+    margin-bottom: 20px;
+}
 
 .service-section{
+    margin: 50px 0;
+    
+}
+
+
+.service-section .service-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-section .service-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.service-section .service-container .service-card img{
+    width: 350px;
+    object-fit: cover;
+}
+
+.service-section .service-container .service-card h3{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.service-section .service-container .service-card p{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    padding: 0 10px;
+}
+/* .service-section{
     margin: 50px 0;
 }
 
@@ -180,7 +319,7 @@ nav{
 
 .service-card a{
     color: red;
-}
+} */
 
 
 .whatsapp img{
