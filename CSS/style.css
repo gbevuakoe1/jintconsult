@@ -113,8 +113,9 @@ nav{
 .about-main{
     margin:0;
     width: 100%;
-    height: 130vh;
+    height: 110vh;
     background-color: #f7f7f7;
+    border: 1px solid black;
 }
 
 .about-container{
@@ -154,9 +155,9 @@ nav{
 
 
 .about-container .about-right img{
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
 }
 
 .about-main .about-mission{
