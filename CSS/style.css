@@ -114,7 +114,6 @@ nav{
     margin:0 auto;
     width: 100%;
     background-color: #f7f7f7;
-    border: 1px solid black;
 }
 
 .about-container{
@@ -265,8 +264,7 @@ nav{
 
 .slogan-section{
     margin: 50px auto;
-    max-width: 1200px;
-    width: 90%;
+    width: 100%;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(../Images/service3.jpeg);
     background-position: center;
     background-size: cover;
@@ -295,8 +293,8 @@ nav{
 .slogan-section .slogan-service{
     position: absolute;
     top: -20px;
-    left: 510px;
-    right: 490px;
+    left: 580px;
+    right: 550px;
     color: black;
     background-color: white;
     border: 2px solid black;
@@ -304,16 +302,16 @@ nav{
     padding: 15px 30px;
 }
 
-/* .service-section{
+.service-main{
     margin: 50px 0;
 }
 
-.service-header{
+.mainservice-header{
     text-align: center;
     margin-bottom: 20px;
 }
 
-.service-container{
+.servicemain-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     gap: 20px;
@@ -322,7 +320,7 @@ nav{
     margin: auto;
 }
 
-.service-card img{
+.servicemain-card img{
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -330,13 +328,13 @@ nav{
     transition: transform 0.6s ease;
 }
 
-.service-card{
+.servicemain-card{
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
 
-.service-card .overlay{
+.servicemain-card .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -351,29 +349,29 @@ nav{
     text-align: center;
 }
 
-.service-card:hover img{
+.servicemain-card:hover img{
     transform: scale(1.5);
 }
 
-.service-card i{
+.servicemain-card i{
     color: sandybrown;
     font-size: 36px;
 }
 
-.service-card h2{
+.servicemain-card h2{
     color: white;
     text-align: center;
     margin: 20px 0;
 }
 
-.service-card p{
+.servicemain-card p{
     color: whitesmoke;
     margin-bottom: 25px;
 }
 
-.service-card a{
+.servicemain-card a{
     color: red;
-} */
+}
 
     /* WHATSAPP SECTION */
 
