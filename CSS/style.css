@@ -14,7 +14,7 @@ a{
     text-decoration: none;
 }
 
-.cta-btn{
+/* .cta-btn{
     color: white;
     padding: 10px 15px;
     margin: 20px 0;
@@ -23,7 +23,7 @@ a{
     border-radius: 8px;
     border: none;
     overflow: hidden;
-}
+} */
 
 .logo{
     width: 140px;
@@ -113,7 +113,7 @@ nav{
 .about-main{
     margin:0;
     width: 100%;
-    height: 120vh;
+    height: 130vh;
     background-color: #f7f7f7;
 }
 
@@ -123,8 +123,9 @@ nav{
     margin: auto;
     display: flex;
     gap: 50px;
+    box-shadow: rgba(250, 250, 252, 0.2) 0px 7px 29px 0px;
     position: relative;
-    padding: 250px 0 0 0;
+    padding: 250px 0 50px 0px;
     overflow: hidden;
     
 }
@@ -217,8 +218,8 @@ nav{
 .service-section{
     margin: 50px 0;
     
+    
 }
-
 
 .service-section .service-header{
     text-align: center;
@@ -237,7 +238,7 @@ nav{
 }
 
 .service-section .service-container .service-card img{
-    width: 350px;
+    width: 340px;
     object-fit: cover;
 }
 
@@ -248,11 +249,62 @@ nav{
 
 .service-section .service-container .service-card p{
     color: gray;
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin: 0 20px 20px 20px;
     line-height: 1.8;
-    padding: 0 10px;
 }
+
+.service-btn{
+    padding: 10px 16px;
+    border: 2px solid rgba(0, 0, 0, 0.671);
+    background-color: white;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.slogan-section{
+    margin: 50px auto;
+    max-width: 1200px;
+    width: 90%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(../Images/service3.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan-section .slogan-items{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 50px;
+}
+.slogan-section .slogan-items h3{
+    margin: 0 50px;
+    border-right: 2px solid white;
+    color: white;
+    padding: 0 30px;
+}
+
+.slogan-section .slogan-service{
+    position: absolute;
+    top: -20px;
+    left: 510px;
+    right: 490px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px 30px;
+}
+
 /* .service-section{
     margin: 50px 0;
 }
@@ -324,6 +376,7 @@ nav{
     color: red;
 } */
 
+    /* WHATSAPP SECTION */
 
 .whatsapp img{
     width: 60px;
@@ -333,6 +386,8 @@ nav{
     bottom: 60px;
     right: 20px;
 }
+
+    /* TESTIMONIALS SECTION */
 
 .testimonials-section{
     margin: 50px 0;
@@ -393,6 +448,7 @@ nav{
     font-size: 1.1rem;
 }
 
+    /* FOOTER SECTION */
 
 footer{
     background-color: black;
@@ -489,6 +545,8 @@ footer{
     padding: 40px 0;
 }
 
+   /* CONTACT SECTION */
+
 .hero-contact{
     height: 70vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),url(../contact\ background2.jpg);
@@ -528,7 +586,7 @@ footer{
     padding: 10px 20px;
 }
 
-button{
+/* button{
     color: white;
     padding: 10px 15px;
     margin: 10px 0;
@@ -537,7 +595,7 @@ button{
     border-radius: 8px;
     border: none;
     overflow: hidden;
-}
+} */
 
 .contact-section .contact-container .contact-details{
     flex: 1;
