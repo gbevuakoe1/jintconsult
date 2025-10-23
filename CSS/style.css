@@ -1001,3 +1001,21 @@ footer{
 .servicemain-card a{
     color: red;
 }
+
+
+.tax-service{
+    max-width: 1000px;
+    width: 90%;
+    margin: 80px auto;
+    
+    
+}
+
+.tax-service h4{
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+}
+
+.tax-service ul li{
+    color: gray;
+}
